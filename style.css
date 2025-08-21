@@ -1,0 +1,42 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#game-board {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    border: 2px solid #fff;
+    margin: 20px auto;
+    overflow: hidden; /* ゲームボード外の要素を隠す */
+}
+
+#player {
+    position: absolute;
+    bottom: 10px;
+    left: 275px; /* 中央から開始 */
+    width: 50px;
+    height: 20px;
+    background-color: #0f0;
+}
+
+.invader {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    background-color: #f00;
+}
+
+.bullet {
+    position: absolute;
+    width: 5px;
+    height: 10px;
+    background-color: #ff0;
+}
+
+#score-board {
+    font-size: 24px;
+}
